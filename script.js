@@ -16,7 +16,7 @@ function initEmailJS() {
   const form = document.getElementById('contactForm');
   form.addEventListener('submit', function(e) {
     e.preventDefault();
-    emailjs.sendForm('你的Service ID', '你的Template ID', this)
+    emailjs.sendForm('service_xvmeefg', 'template_miiss9e', this)
       .then(() => {
         alert('✅ 邮件发送成功！');
         form.reset();
