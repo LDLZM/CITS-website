@@ -52,13 +52,15 @@ nav a:hover {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
   background: #0056b3;
 }
 
-form input, form textarea {
+input, textarea {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
