@@ -1,11 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CITS</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>个人主页 — [姓名]</title>
+  <meta name="description" content="[个人简介占位符]" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Welcome</h1>
+  <header>
+    <h1>[姓名]</h1>
+    <p>[职业 / 简介占位符]</p>
+    <nav>
+      <a href="#about">关于</a>
+      <a href="#projects">项目</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="profile-photo"></div>
+      <h2>你好，我是 [姓名]</h2>
+      <p>[个人介绍占位符：简短的自我介绍或工作方向]</p>
+      <a href="#contact" class="btn">联系我</a>
+    </section>
+
+    <section id="about">
+      <h3>关于我</h3>
+      <p>[详细个人介绍占位符]</p>
+    </section>
+
+    <section id="projects">
+      <h3>项目</h3>
+      <ul>
+        <li><strong>[项目名称 1]</strong> — [项目描述占位符]</li>
+        <li><strong>[项目名称 2]</strong> — [项目描述占位符]</li>
+        <li><strong>[项目名称 3]</strong> — [项目描述占位符]</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h3>联系我</h3>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="你的名字" required />
+        <input type="email" name="email" placeholder="你的邮箱" required />
+        <textarea name="message" placeholder="你的信息" required></textarea>
+        <button type="submit" class="btn">发送</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> [姓名] | [社交链接占位符]</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
