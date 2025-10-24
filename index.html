@@ -23,7 +23,6 @@
       <div class="profile-photo"></div>
       <h2>你好，我是 [姓名]</h2>
       <p>[个人介绍占位符：简短的自我介绍或工作方向]</p>
-      <a href="#contact" class="btn">联系我</a>
     </section>
 
     <section id="about">
@@ -42,12 +41,11 @@
 
     <section id="contact">
       <h3>联系我</h3>
-      <form id="contactForm">
-        <input type="text" name="name" placeholder="你的名字" required />
-        <input type="email" name="email" placeholder="你的邮箱" required />
-        <textarea name="message" placeholder="你的信息" required></textarea>
-        <button type="submit" class="btn">发送</button>
-      </form>
+      <input type="text" id="from_name" placeholder="你的名字" />
+      <input type="email" id="reply_to" placeholder="你的邮箱" />
+      <input type="text" id="title" placeholder="邮件主题" />
+      <textarea id="message" placeholder="你的信息"></textarea>
+      <button id="sendBtn" class="btn">发送邮件</button>
     </section>
   </main>
 
